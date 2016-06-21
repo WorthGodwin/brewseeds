@@ -1,7 +1,7 @@
 class Bitseeds < Formula
   desc "BitSeeds OS X client (GUI and CLI)"
   homepage "http://bitseeds.org"
-  head "https://github.com/BitSeedsOrg/Bitseeds.git"
+  head "https://github.com/WorthGodwin/Bitseeds.git"
 
   option "with-cli", "Also compile the command line client"
   option "without-gui", "Do not compile the graphical client"

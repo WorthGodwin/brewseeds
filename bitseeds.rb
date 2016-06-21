@@ -1,4 +1,4 @@
-class BitSeeds < Formula
+class bitseeds < Formula
   desc "BitSeeds OS X client (GUI and CLI)"
   homepage "http://bitseeds.org"
   head "https://github.com/BitSeedsOrg/Bitseeds.git"

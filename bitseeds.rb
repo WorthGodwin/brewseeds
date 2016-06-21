@@ -25,7 +25,7 @@ class Bitseeds < Formula
     end
 
     if build.with? 'gui'
-      system "qmake", "USE_UPNP=-"
+      system "qmake", "USE_UPNP=-", "BOOST_LIB_SUFFIX=-mt"
       system "make"
       prefix.install "BitSeeds.app"
     end

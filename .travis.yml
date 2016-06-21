@@ -1,0 +1,12 @@
+language: objective-c
+before_install:
+  - brew update
+install:
+  - echo $PWD
+  - ls $PWD
+  - mkdir -p $(brew --repo)/Library/Taps/WorthGodwin
+  - ln -s $PWD $(brew --repo)/Library/Taps/WorthGodwin/brewseeds
+  - brew tap --repair
+
+script:
+- brew install bitseeds --HEAD --with-cli
